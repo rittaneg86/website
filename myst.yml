@@ -10,14 +10,14 @@ project:
       email: ritta.negmfa@uri.edu
   github: https://github.com/rittaneg86
   # To autogenerate a Table of Contents, run "myst init --write-toc"
+  toc:
+    - file: index.md
+      title: Home
+    - file: research.md
+      title: Research
 site:
   template: book-theme
   title: Ritta Neg Mfa - Academic Website
-  nav:
-    - title: Home
-      url: /
-    - title: Research
-      url: /
   options:
   #   favicon: favicon.ico
     logo: assets/me.jpg
