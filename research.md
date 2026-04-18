@@ -45,21 +45,18 @@ This project implements the DaST framework for data-free substitute training of 
 +++
 :::
 
+:::{grid-item-card}
+Prototype-Based Interpretability for Fairness Auditing. ^^^
+
+This project asks whether prototype-based interpretable models encode demographic shortcuts when trained on facial attribute classification, and whether prototype visualizations can expose these biases more transparently than post-hoc explanation methods like GradCAM or LIME. The core problem is not only that bias exists, but that it hides inside black-box models — making it difficult to diagnose, communicate, or fix. A model can appear accurate overall while relying on unfair patterns tied to gender, age, or makeup rather than the true target attribute. By using prototypes to inspect why a model makes a prediction, this work connects interpretability and fairness into a single auditing framework.
++++
+:::
 ---
 ---
 
 ## Publications
 
 ::::{grid} 1 :gutter: 1
-
-:::{grid-item-card} 
-Fairness in Machine learning: A Literature Review On Challenges, Toolkits, and Frameworks. ^^^
-:link: https://ml4sts.com/fairml-bestpractices/#checklist-of-best-practices
-Ritta Neg Mfa & Sarah M Brown  
-Synthesizes insights from the literature into a comprehensive rubric and practical checklist that guide practitioners in integrating fairness throughout the machine learning lifecycle
-+++
-:::
-
 :::{grid-item-card} 
 LLM-based Code Evaluation for Fairness. ^^^
 :link: https://openreview.net/forum?id=PR0s3xSecr
